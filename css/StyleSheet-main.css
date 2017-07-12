@@ -1,0 +1,118 @@
+﻿@font-face {
+	font-family: ribbon;
+	src: url('Ribbon.otf');
+}
+
+
+h1 {
+    color:white;
+    font-size:100px;
+    font-family:Ribbon;
+    margin:20px auto;
+    text-align:center;
+
+      text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+    }
+
+body{
+    background-image: url(../img/Main-bg.jpg);
+    background-size:100%;
+}
+
+.choice{
+
+    margin: 10px auto;
+    border: 10px rgb(11, 47, 105) ridge;
+}
+
+p{
+    text-align:center;
+    font-size:40px;
+    font-family:Groovy Fast;
+    color:white;
+    
+}
+
+.choice{
+         width:300px;
+         height:300px;
+}
+
+.choice:hover{
+	cursor: pointer;
+	-webkit-box-shadow: 6px 4px 6px rgb(239, 184, 113), -6px -4px 6px rgb(239, 184, 113);
+}
+
+div{
+        display: inline-block;
+}
+
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: .5s;
+}
+
+@keyframes shake {
+	0%, 100% {-webkit-transform: translateX(0);}
+	20%, 60% {-webkit-transform: translateX(-30px);}
+	40%, 80% {-webkit-transform: translateX(30px);}
+}
+
+form {
+    height: 275px;
+    width: 350px;
+    margin-top: -100px;
+    margin-left: -175px;
+    position: absolute;
+    padding: 10px;
+    left: 50%;
+    top: 45%;
+    text-align: center;
+    color: #ffffff;
+    border: 5px solid #ffeaa0;
+    border-radius: 20px;
+    box-shadow: 0 0 25px 5px #000;
+    background: rgba(2, 6, 17, .95);
+    vertical-align: text-bottom;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    font-family: Ribbon;
+    font-size: 50px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px #fff;
+}
+
+input[type=submit] {
+	font-size: 16px;
+	width: 50%;
+	border: 3px solid #ffeaa0;
+	border-radius: 10px;
+	padding: 10px;
+	background: #000;
+	color: #ffeaa0;
+	outline: 0;
+    font-family:Ribbon;
+}
+
+input[type=text] {
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 10px;
+	outline: 0;
+	text-align: center;
+    font-family:'Groovy Fast'
+}

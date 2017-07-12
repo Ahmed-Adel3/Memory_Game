@@ -1,0 +1,79 @@
+﻿@font-face {
+	font-family: ribbon;
+	src: url('Ribbon.otf');
+}
+
+
+body.game {
+ 
+   font-family:Ribbon;   
+}
+
+table{
+        margin:20px auto;
+        border-spacing:3px;
+}
+
+.table2{
+        border:10px solid black;
+}
+
+img{
+     width:130px;
+     height:130px;
+    }
+
+img:hover{
+	cursor: pointer;
+	-webkit-box-shadow: 6px 4px 2px rgb(39, 75, 116), -6px -4px 2px rgb(39, 75, 116);
+}
+
+img.selected {
+	box-shadow: 0 0 20px 3px #ffeaa0;
+	transform: rotateY(90deg);
+	transition: 0.1s;
+}
+
+caption{
+    font-family: ribbon;
+    font-size: 39px;
+    margin: -1px 17px 11px 165px;
+}
+
+.hidden{
+    display:none;
+}
+
+input[type=button] {
+    margin: 4px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #f1bb06;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+div{
+    display:block;
+}
+
+.lightbox {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border: 4px solid rgb(241, 187, 6);
+    background-color: rgba(10, 35, 59, .9);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
