@@ -1,5 +1,3 @@
-/*  <!-- Javascript Project --- Ahmed Adel Mohamed --- 3 months Program--> */
-
 window.onload = function () {
 
 
@@ -48,7 +46,7 @@ window.onload = function () {
         location.reload();
     });
     $(".menu").on("click", function () {
-                                         location.href = "Main%20Page.html";
+                                         location.href = "index.html";
                                         });
    
 };
